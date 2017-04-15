@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Shopping+:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Shopping+_war.war">
+      <element id="artifact" artifact-name="Shopping+:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/com.shopping+/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
