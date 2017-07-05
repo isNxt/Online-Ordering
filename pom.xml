@@ -30,7 +30,7 @@
       <version>1.2.2</version>
     </dependency>
 
-    <!--MySQL 5.1.38-->
+    <!--MySQL 5.1.38 换数据库需要替换为与你数据库对应的依赖-->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>

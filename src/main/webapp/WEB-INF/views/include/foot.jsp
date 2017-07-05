@@ -24,9 +24,9 @@
     <div class="foot-style">
         本项目采用了Spring+SpringMVC+Hibernate开发框架，前端使用了Bootstrap开发框架
         <br/>
-        数据库使用了MySQL，开发成果作为数据库期末项目
+        数据库使用了MySQL
         <br/>
-        如果对此有任何疑问或者建议，请联系管理员guoxiaofeng_2015@163.com
+        本项目主要贡献者为郭晓峰和颜鑫，如果对此有任何疑问或者建议，请联系管理员guoxiaofeng_2015@163.com
     </div>
     <!-- 结束啦 -->
 
