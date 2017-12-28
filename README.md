@@ -32,4 +32,4 @@
 ![订单处理](http://i2.muimg.com/588926/00c922b032619e71.png)
 ![订单处理](http://i2.muimg.com/588926/871acdbef93d7057.png)
 ## 演示地址
-　　演示网址：182.254.214.252:8080/Shopping
+　　演示网址：http://120.79.92.126/Shopping
