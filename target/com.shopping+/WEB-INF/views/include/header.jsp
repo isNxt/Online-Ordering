@@ -5,7 +5,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<<<<<<< HEAD
     <!--假装我是代码，代码一定要对齐，对齐，对齐！-->
+=======
+>>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
