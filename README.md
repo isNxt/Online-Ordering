@@ -25,11 +25,15 @@
 * 处理订单功能
 * 发货功能
 ## 运行截图
-![主页](http://i4.buimg.com/588926/4f55a56c600353d3.png)
+
+![主页](http://ou7jocypf.bkt.clouddn.com/18-1-7/34246424.jpg)
 ![商品详情页](http://i2.muimg.com/588926/d9732cf1077364b1.png)
 ![购物车](http://i2.muimg.com/588926/824c6423b8adee56.png)
-![订单状态](http://i4.buimg.com/588926/e768a19233e6a97c.png)
-![订单处理](http://i2.muimg.com/588926/00c922b032619e71.png)
+![订单状态](http://ou7jocypf.bkt.clouddn.com/18-1-7/2705633.jpg)
+![订单处理](http://ou7jocypf.bkt.clouddn.com/18-1-7/59511728.jpg)
 ![订单处理](http://i2.muimg.com/588926/871acdbef93d7057.png)
+![控制台1](http://ou7jocypf.bkt.clouddn.com/18-1-7/54419726.jpg)
+![控制台2](http://ou7jocypf.bkt.clouddn.com/18-1-7/98806938.jpg)
+
 ## 演示地址
 　　演示网址：http://120.79.92.126/Shopping
