@@ -57,7 +57,7 @@ public class UserDaoImplement implements UserDao {
         Query query = sessionFactory.getCurrentSession().createQuery(hql);
         query.setParameter(0,user.getName());
         query.setParameter(1,user.getEmail());
-        query.setParameter(2,user.getEmail());
+        query.setParameter(2,user.getNickName());
         query.setParameter(3,user.getId());
         return query.executeUpdate() > 0;
     }

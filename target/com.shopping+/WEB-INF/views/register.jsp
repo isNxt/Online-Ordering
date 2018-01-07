@@ -34,21 +34,13 @@
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">用户名</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="text" class="form-control" id="inputUserName" placeholder="请输入数字"/>
-=======
-                        <input type="text" class="form-control" id="inputUserName" placeholder="14121047"/>
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">邮箱</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="email" class="form-control" id="inputEmail" placeholder="请输入正确的邮箱格式"/>
-=======
-                        <input type="email" class="form-control" id="inputEmail" placeholder="xxxxxx@xx.com"/>
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
@@ -66,11 +58,7 @@
                 <div class="form-group">
                     <label for="inputPhoneNumber" class="col-sm-2 col-md-2 control-label">手机号码</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="text" class="form-control" id="inputPhoneNumber" placeholder="请输入手机号" />
-=======
-                        <input type="text" class="form-control" id="inputPhoneNumber" placeholder="131xxxxxxxx" />
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
@@ -87,31 +75,19 @@
                 <div class="form-group">
                     <label for="birthday" class="col-sm-2 col-md-2 control-label">出生日期</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="text" class="form-control" id="birthday" placeholder="请输入出生日期" />
-=======
-                        <input type="text" class="form-control" id="birthday" placeholder="18" />
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="postcodes" class="col-sm-2 col-md-2 control-label">邮政编码</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="text" class="form-control" id="postcodes" placeholder="请输入邮政编码" />
-=======
-                        <input type="text" class="form-control" id="postcodes" placeholder="200444" />
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="address" class="col-sm-2 col-md-2 control-label">地址</label>
                     <div class="col-sm-6 col-md-6">
-<<<<<<< HEAD
                         <input type="text" class="form-control" id="address" placeholder="请输入寄送地址" />
-=======
-                        <input type="text" class="form-control" id="address" placeholder="131xxxxxxxx" />
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                     </div>
                 </div>
                 <div class="form-group">
@@ -184,7 +160,6 @@
                 layer.msg('注册成功',{icon:1});
                 window.location.href="${cp}/login";
             }
-<<<<<<< HEAD
             else if(registerResult == 'nameExist'){
                 layer.close(loading);
                 layer.msg('这个用户名已经被占用啦！',{icon:2});
@@ -195,12 +170,6 @@
             }
             else if(registerResult == 'fail'){
                 layer.close(loading);
-=======
-            else if(registerResult == 'exist'){
-                layer.msg('这个用户名已经被占用啦！',{icon:2});
-            }
-            else if(registerResult == 'fail'){
->>>>>>> 3ea5e3971a572745d98392f2e547f6d62f650224
                 layer.msg('服务器异常',{icon:2});
             }
         }

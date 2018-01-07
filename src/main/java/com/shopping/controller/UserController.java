@@ -124,6 +124,7 @@ public class UserController {
     public Map<String, Object> doUpdate(String userName, String email, String nickName, String password, String phoneNumber, int sex, String birthday, String postNumber, String address) {
         String result = "fail";
         User user = userService.getUser(userName);
+        user.setEmail(email);
         user.setNickName(nickName);
         userService.updateUser(user);
         UserDetail userDetail = userDetailService.getUserDetail(user.getId());
