@@ -27,11 +27,10 @@
 ## 运行截图
 
 ![主页](http://ou7jocypf.bkt.clouddn.com/18-1-7/34246424.jpg)
-![商品详情页](http://i2.muimg.com/588926/d9732cf1077364b1.png)
-![购物车](http://i2.muimg.com/588926/824c6423b8adee56.png)
+![商品详情页](http://ou7jocypf.bkt.clouddn.com/18-1-19/72836398.jpg)
+![购物车](http://ou7jocypf.bkt.clouddn.com/18-1-19/17885375.jpg)
 ![订单状态](http://ou7jocypf.bkt.clouddn.com/18-1-7/2705633.jpg)
 ![订单处理](http://ou7jocypf.bkt.clouddn.com/18-1-7/59511728.jpg)
-![订单处理](http://i2.muimg.com/588926/871acdbef93d7057.png)
 ![控制台1](http://ou7jocypf.bkt.clouddn.com/18-1-7/54419726.jpg)
 ![控制台2](http://ou7jocypf.bkt.clouddn.com/18-1-7/98806938.jpg)
 
