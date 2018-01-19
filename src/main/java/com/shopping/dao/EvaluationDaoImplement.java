@@ -24,7 +24,7 @@ public class EvaluationDaoImplement implements EvaluationDao {
         Query query = sessionFactory.getCurrentSession().createQuery(hql);
         query.setParameter(0, userId);
         query.setParameter(1, productId);
-        query.setParameter(0, time);
+        query.setParameter(2, time);
         return (Evaluation) query.uniqueResult();
     }
 
@@ -48,9 +48,9 @@ public class EvaluationDaoImplement implements EvaluationDao {
         String hql = "update Evaluation set content=? where userId=? and productId=? and time=?";
         Query query = sessionFactory.getCurrentSession().createQuery(hql);
         query.setParameter(0, evaluation.getContent());
-        query.setParameter(0, evaluation.getUserId());
-        query.setParameter(1, evaluation.getProductId());
-        query.setParameter(2, evaluation.getTime());
+        query.setParameter(1, evaluation.getUserId());
+        query.setParameter(2, evaluation.getProductId());
+        query.setParameter(3, evaluation.getTime());
         return query.executeUpdate() > 0;
     }
 
