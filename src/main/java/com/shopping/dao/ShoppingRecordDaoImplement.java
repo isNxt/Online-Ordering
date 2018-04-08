@@ -85,4 +85,20 @@ public class ShoppingRecordDaoImplement implements ShoppingRecordDao {
         query.setParameter(1,productId);
         return query.list().size()>0;
     }
+
+    @Override
+    public boolean deleteShoppingRecordByUser(int userId) {
+        String hql = "delete ShoppingRecord where userId=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, userId);
+        return query.executeUpdate() > 0;
+    }
+
+    @Override
+    public boolean deleteShoppingRecordByProductId(int productId) {
+        String hql = "delete ShoppingRecord where productId=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, productId);
+        return query.executeUpdate() > 0;
+    }
 }

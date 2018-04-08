@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.shopping.entity.Product;
 import com.shopping.entity.User;
 import com.shopping.service.ProductService;
+import com.shopping.utils.Response;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -42,16 +43,11 @@ public class ProductController {
         return resultMap;
     }
 
+    //推荐写法
     @RequestMapping(value = "/deleteProduct", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> deleteProduct(int id) {
-        String result ="fail";
-        if(productService.deleteProduct(id)){
-            result="success";
-        }
-        Map<String,Object> resultMap = new HashMap<String,Object>();
-        resultMap.put("result",result);
-        return resultMap;
+    public Response deleteProduct(int id) {
+        return productService.deleteProduct(id);
     }
 
     @RequestMapping(value = "/addProduct", method = RequestMethod.POST)

@@ -1,6 +1,7 @@
 package com.shopping.service;
 
 import com.shopping.entity.User;
+import com.shopping.utils.Response;
 
 import java.util.List;
 
@@ -8,15 +9,16 @@ import java.util.List;
  * Created by 14437 on 2017/3/1.
  */
 public interface UserService {
-    public User getUser(int id);
+    User getUser(int id);
 
-    public User getUser(String nameOrEmail);
+    User getUser(String nameOrEmail);
 
-    public void addUser(User user);
+    void addUser(User user);
 
-    public boolean deleteUser(int id);
+    //推荐写法
+    Response deleteUser(int id);
 
-    public boolean updateUser(User user);
+    boolean updateUser(User user);
 
-    public List<User> getAllUser();
+    List<User> getAllUser();
 }

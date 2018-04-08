@@ -252,14 +252,13 @@
               data : user,
               dataType : 'json',
               success : function(result) {
-                  deleteResult = result.result;
+                  deleteResult = result;
               },
               error : function(result) {
                   layer.alert('查询用户错误');
               }
           });
-          if(deleteResult != "success")
-              layer.alert("删除用户出错");
+          layer.msg(deleteResult.message);
           listAllUser()
       }
 
@@ -274,14 +273,13 @@
               data : product,
               dataType : 'json',
               success : function(result) {
-                  deleteResult = result.result;
+                  deleteResult = result;
               },
               error : function(result) {
                   layer.alert('删除商品错误');
               }
           });
-          if(deleteResult != "success")
-              layer.alert("删除商品出错");
+          layer.msg(deleteResult.message);
           listAllProduct();
       }
       

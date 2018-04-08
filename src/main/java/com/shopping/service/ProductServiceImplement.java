@@ -1,9 +1,14 @@
 package com.shopping.service;
 
+import com.shopping.dao.EvaluationDao;
 import com.shopping.dao.ProductDao;
+import com.shopping.dao.ShoppingCarDao;
+import com.shopping.dao.ShoppingRecordDao;
 import com.shopping.entity.Product;
+import com.shopping.utils.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,6 +20,12 @@ import java.util.List;
 public class ProductServiceImplement implements ProductService {
     @Autowired
     private ProductDao productDao;
+    @Autowired
+    private ShoppingRecordDao shoppingRecordDao;
+    @Autowired
+    private ShoppingCarDao shoppingCarDao;
+    @Autowired
+    private EvaluationDao evaluationDao;
 
     @Override
     public Product getProduct(int id) {
@@ -32,8 +43,17 @@ public class ProductServiceImplement implements ProductService {
     }
 
     @Override
-    public boolean deleteProduct(int id) {
-        return productDao.deleteProduct(id);
+    @Transactional
+    public Response deleteProduct(int id) {
+        try {
+            evaluationDao.deleteEvaluationByProduct(id);
+            shoppingCarDao.deleteShoppingCarByProduct(id);
+            shoppingRecordDao.deleteShoppingRecordByProductId(id);
+            productDao.deleteProduct(id);
+            return new Response(1, "删除商品成功", null);
+        }catch (Exception e){
+            return new Response(0,"删除商品失败",null);
+        }
     }
 
     @Override

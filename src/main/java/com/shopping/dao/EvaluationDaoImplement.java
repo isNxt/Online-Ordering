@@ -61,4 +61,20 @@ public class EvaluationDaoImplement implements EvaluationDao {
         query.setParameter(0, productId);
         return  query.list();
     }
+
+    @Override
+    public boolean deleteEvaluationByUser(int userId) {
+        String hql = "delete Evaluation where userId=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, userId);
+        return query.executeUpdate() > 0;
+    }
+
+    @Override
+    public boolean deleteEvaluationByProduct(int productId) {
+        String hql = "delete Evaluation where productId=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, productId);
+        return query.executeUpdate() > 0;
+    }
 }

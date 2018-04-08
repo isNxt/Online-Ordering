@@ -18,4 +18,8 @@ public interface EvaluationDao {
     public boolean updateEvaluation(Evaluation evaluation);
 
     public List<Evaluation> getProductEvaluation(int productId);
+
+    boolean deleteEvaluationByUser(int userId);
+
+    boolean deleteEvaluationByProduct(int productId);
 }

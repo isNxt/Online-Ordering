@@ -1,6 +1,7 @@
 package com.shopping.service;
 
 import com.shopping.entity.Product;
+import com.shopping.utils.Response;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ public interface ProductService {
 
     public void addProduct(Product product);
 
-    public boolean deleteProduct(int id);
+    Response deleteProduct(int id);
 
     public boolean updateProduct(Product product);
 
