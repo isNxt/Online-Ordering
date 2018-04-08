@@ -42,7 +42,7 @@
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 				<div class="jumbotron">
 					<h1>欢迎来到购物+</h1>
-					<p>购物+是一个非常优秀的购物网站，你可以在这里买到物美价廉的东西，虽然它只是一个大作业，233333</p>
+					<p>购物+是一个非常优秀的购物网站，你可以在这里买到物美价廉的东西，虽然它只是练习用的项目，哈哈哈哈</p>
 				</div>
 
 				<div name="productArea1" class="row pd-10" id="productArea1">
