@@ -24,15 +24,4 @@
 * 添加新的商品功能
 * 处理订单功能
 * 发货功能
-## 运行截图
 
-![主页](http://ou7jocypf.bkt.clouddn.com/18-1-7/34246424.jpg)
-![商品详情页](http://ou7jocypf.bkt.clouddn.com/18-1-19/72836398.jpg)
-![购物车](http://ou7jocypf.bkt.clouddn.com/18-1-19/17885375.jpg)
-![订单状态](http://ou7jocypf.bkt.clouddn.com/18-1-7/2705633.jpg)
-![订单处理](http://ou7jocypf.bkt.clouddn.com/18-1-7/59511728.jpg)
-![控制台1](http://ou7jocypf.bkt.clouddn.com/18-1-7/54419726.jpg)
-![控制台2](http://ou7jocypf.bkt.clouddn.com/18-1-7/98806938.jpg)
-
-## 演示地址
-　　演示网址：http://120.79.92.126/Shopping
