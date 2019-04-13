@@ -1,10 +1,10 @@
-# Shopping
+# Oneline-Ordering
 ## 简单介绍
 　　本项目使用Spring+SpringMVC+Hibernate来实现了一个网上商城系统。
 ## 主要技术
 　　JavaEE框架：Spring+SpringMVC+Hibernate<br/>
 　　前端框架：Bootstrap<br/>
-　　插件：Layer.js,ajaxfileupload.js<br/>
+　　插件：Layer.js, ajaxfileupload.js<br/>
 　　数据库：MySQL<br/>
 ## 主要功能
 1. 普通用户
